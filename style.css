@@ -1,23 +1,120 @@
+/* 1 */
 body{
-  background-color: #F0F8FF;
+  background-color: #FFFFFF;
+  font-family: Andale Mono, monospace;
+  background-image:linear-gradient(#404040,#FFFFFF);
+  background-repeat: no-repeat,repeat;
 }
-header {text-align:center; font-style: normal; font-family: Impact, fantasy;}
-h2 { 
-    text-align: center; 
-    font-family: Impact, fantasy;
-    border: 3px solid black;
-    border-style: dashed;
-    background-color: #A0A0A0;
-    background-size: auto;}
-p { font-family: Andale Mono, monospace; font-size: 14px;}
-li {font-family: Andale Mono, monospace;}
-header{
+
+/* 1 */
+header {
+    text-align:center;
+    padding-bottom: 20px;
+}
+nav {
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+    padding-left: 0px;
+}
+nav ul li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    padding-right: 0px;
+
+    border: 1px solid white;
+    background-color:black;
+    list-style:none;
+    list-style-image: none;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+nav ul li:hover {
+    
+    background-color:lightgray
+}
+a:hover{
+  color: #000000 ;
+}
+
+/*1*/
+h1{
+    color: #B0B0B0;
+    text-shadow: 1px 1px #FFFFFF;
+    text-align:center;  
+    font-family:'Suez One', serif;
+    
     border: 3px solid black;
     background-color: grey;
     background-size: auto;
+    background-image: url(multimedia/paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
 }
-table,td{
-  font-family: Andale Mono, monospace;
+
+/* 1 */
+h2 { 
+    color: #B0B0B0;
+    text-shadow: 1px 1px #FFFFFF;
+    text-align:center;  
+    font-family:'Suez One', serif;
+    border: 3px solid black;
+    background-color: grey;
+    background-size: auto;
+    background-image: url(multimedia/paisaje.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
+
+/* 1 */
+p { font-size: 14px;}
+
+/*1*/
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-image: url(multimedia/ring.png);
+}
+
+li {
+  margin: 0 .75rem;
+}
+
+/* 1 */
+table,th,td{
   text-align: center;
-  border: 2px solid ;
+  border: 2px solid black;
+}
+/*1*/
+table{
+  background-color: transparent;
+  margin: auto;
+  
+}
+/*1*/
+th,td{
+  background-color: #C0C0C0;
 }
