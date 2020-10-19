@@ -1,0 +1,8 @@
+.lado{
+  flex: 25%;
+}
+
+.central{
+  flex: 75%;
+  display: block;
+}
