@@ -107,7 +107,7 @@ td:first-child{
 }
 
 .informacion table th, .informacion table td {
-  font-size: 1em;
+  font-size: 1.2em;
   text-align: left;
   border:none;
   background-color: transparent;
