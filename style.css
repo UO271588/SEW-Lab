@@ -106,8 +106,11 @@ td:first-child{
   border: none;
 }
 
-.informacion table th, .informacion table td {
+table th, table td {
   font-size: 1.2em;
+}
+.informacion table th, .informacion table td {
+  
   text-align: left;
   border:none;
   background-color: transparent;
