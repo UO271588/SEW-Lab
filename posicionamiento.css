@@ -1,8 +1,37 @@
+main{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
 .lado{
   flex: 25%;
 }
 
 .central{
   flex: 75%;
+}
+
+.central img {
+  display:block;
+}
+
+.central section img{
+  float: right;
+}
+
+.central ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.lado img {
   display: block;
 }
