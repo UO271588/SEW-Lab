@@ -39,9 +39,9 @@ nav {
     background-color: black;
 }
 nav ul {
-    margin: 0px;
+    margin: 0em;
     align-items: center;
-    padding-left: 0px;
+    padding-left: 0em;
 }
 
 nav ul li{
@@ -107,7 +107,7 @@ td:first-child{
 }
 
 .informacion table th, .informacion table td {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: left;
   border:none;
   background-color: transparent;
@@ -174,7 +174,7 @@ h2 {
 }
 
 .central li {
-  margin: 0.75rem;
+  margin: 0.75em;
 }
 
 /* 1 */
