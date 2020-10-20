@@ -1,9 +1,9 @@
-
+/* a=0, b=0, c=0 */
 * {
   box-sizing: border-box;
 }
 
-/* 1 */
+/* a=0, b=0, c=1 */
 body{
   background-color: #FFFFFF;
   font-family: Andale Mono, monospace;
@@ -12,12 +12,12 @@ body{
   margin: 0em;
 }
 
-/* 1 */
+/* a=0, b=0, c=1 */
 header {
     text-align:center;
 }
 
-/*1*/
+/* a=0, b=0, c=1 */
 h1{
     color: #FFFFFF;
     text-shadow: 0.02em 0.02em #FFFFFF;
@@ -28,22 +28,23 @@ h1{
     background-image: url(multimedia/paisaje.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
     padding: 1.25em;
     margin: 0em;
 }
 
+/* a=0, b=0, c=1 */
 nav {
     background-color: black;
 }
+
+/* a=0, b=0, c=2 */
 nav ul {
     margin: 0em;
     align-items: center;
     padding-left: 0em;
 }
 
+/* a=0, b=0, c=3 */
 nav ul li{
     padding: 0.5em 0em;
     background-color:black;
@@ -52,24 +53,29 @@ nav ul li{
     margin: 0px;
 }
 
+/* a=0, b=0, c=4 */
 nav ul li a {
     text-decoration: none;
     color: #FFFFFF;
     padding: 14px 20px;
 }
 
+/* a=0, b=1, c=3 */
 nav ul li:hover {
     background-color:lightgray
 }
 
+/* a=0, b=1, c=4 */
 nav>ul>li:hover a{
   color: #000000 ;
 }
 
+/* a=0, b=0, c=2 */
 .lado{
   padding: 1.2em;
 }
 
+/* a=0, b=1, c=1 */
 .lado img {
   margin: auto;
   margin-bottom: 1.1em;
@@ -78,6 +84,7 @@ nav>ul>li:hover a{
   border-radius: 2em;
 }
 
+/* a=0, b=1, c=1 */
 .lado h3 {
   margin: auto;
   margin-top: 1.2em;
@@ -87,18 +94,22 @@ nav>ul>li:hover a{
   background-color: #889988;
 }
 
+/* a=0, b=1, c=1 */
 .lado h2 {
   margin-top: 0.5em;
 }
 
+/* a=0, b=1, c=1 */
 td:first-child{
   font-weight: bold;
 }
 
+/* a=0, b=1, c=0 */
 .informacion {
   border: 0.1em solid black;
 }
 
+/* a=0, b=1, c=1 */
 .informacion table {
   width: 80%;
   margin-top: 0.3em;
@@ -106,9 +117,12 @@ td:first-child{
   border: none;
 }
 
+/* a=0, b=0, c=2 */
 table th, table td {
   font-size: 1.6em;
 }
+
+/* a=0, b=1, c=2 */
 .informacion table th, .informacion table td {
   font-size: 1.2em;
   text-align: left;
@@ -117,18 +131,22 @@ table th, table td {
   vertical-align: top;
 }
 
+/* a=0, b=1, c=3 */
 .information table tr th {
   width: 50%;
 }
 
+/* a=0, b=1, c=1 */
 .lado p{
   margin-top: 0em;
 }
 
+/* a=0, b=1, c=0 */
 .central{
   padding: 1.2em;
 }
 
+/* a=0, b=1, c=2 */
 .central section img{
   margin-left: 1.5em;
   margin-bottom: 1.5em;
@@ -137,7 +155,7 @@ table th, table td {
   border-radius: 2em;
 }
 
-/* 1 */
+/* a=0, b=0, c=1 */
 h2 { 
     color: #FFFFFF;
     text-shadow: 1px 1px #FFFFFF;
@@ -148,16 +166,15 @@ h2 {
     background-image: url(multimedia/paisaje.jpg);
     background-repeat: no-repeat;
     margin-top: 1px;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
 }
 
+/* a=0, b=1, c=1 */
 .central video{
   max-width: 500px;
   max-height: 500px;
 }
 
+/* a=0, b=1, c=1 */
 .central img {
   margin:auto;
   margin-top: 2em;
@@ -170,29 +187,32 @@ h2 {
   border-radius: 2em;
 }
 
-/*1*/
+/* a=0, b=1, c=1 */
 .central ul {
   align-items: center;
   list-style-image: url(multimedia/ring.png);
 }
 
+/* a=0, b=1, c=1 */
 .central li {
   margin: 0.75em;
 }
 
-/* 1 */
-.central table,th,td{
+/* a=0, b=1, c=1 */
+.central table, .central th, .central td{
   text-align: center;
   border: 2px solid black;
 }
-/*1*/
+
+/* a=0, b=1, c=1 */
 .central table{
   background-color: transparent;
   margin: auto;
   
 }
-/*1*/
-.central th,td{
+
+/* a=0, b=0, c=2 */
+.central th, .central td{
   background-color: #C0C0C0;
 }
 
