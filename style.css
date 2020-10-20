@@ -196,7 +196,7 @@ h2 {
 /* a=0, b=1, c=1 Especificidad -> 11*/
 .central li {
   margin: 0.75em;
-  font-size: 1.2em
+  font-size: 1.5em
 }
 
 /* a=0, b=1, c=1 Especificidad -> 11*/
