@@ -1,10 +1,10 @@
-/* a=0, b=0, c=1 */
+/* a=0, b=0, c=1 Especificidad -> 1*/
 main{
   display: flex;
   flex-wrap: wrap;
 }
 
-/* a=0, b=0, c=2 */
+/* a=0, b=0, c=2 Especificidad -> 2*/
 nav ul {
   display: flex;
   flex-direction: row;
@@ -13,33 +13,33 @@ nav ul {
   align-content: flex-start;
 }
 
-/* a=0, b=1, c=0 */
+/* a=0, b=1, c=0 Especificidad -> 10*/
 .lado{
   flex: 25%;
 }
 
-/* a=0, b=1, c=0 */
+/* a=0, b=1, c=0 Especificidad -> 10*/
 .central{
   flex: 75%;
 }
 
-/* a=0, b=1, c=1 */
+/* a=0, b=1, c=1 Especificidad -> 11*/
 .central img {
   display:block;
 }
 
-/* a=0, b=1, c=2 */
+/* a=0, b=1, c=2 Especificidad -> 12*/
 .central section img{
   float: right;
 }
 
-/* a=0, b=1, c=1 */
+/* a=0, b=1, c=1 Especificidad -> 11*/
 .central ul {
   display: flex;
   flex-direction: column;
 }
 
-/* a=0, b=1, c=1 */
+/* a=0, b=1, c=1 Especificidad -> 11*/
 .lado img {
   display: block;
 }
