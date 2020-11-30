@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+	<title>CalculadoraRPN</title>
+	<link rel="stylesheet" href="CalculadoraRPN.css"/>
+	<script src="CalculadoraRPN.js"></script>
+</head>
+<body>
+	<h1>Calculadora RPN</h1>	
+	<div id = "calculadora">
+	<div id = "pantalla">
+		<div id="pila">
+			<p></p>
+		</div>
+		<div id="entrada">0</div>
+	</div>
+		<div>
+			<input id = "delete" type="button" value = "DEL" onclick= "calc.delete()"/>
+		</div>
+		<div>
+			<input type="button" value = "sin" onclick= "calc.sin()"/>
+			<input type="button" value = "cos" onclick= "calc.cos()"/>
+			<input type="button" value = "tan" onclick= "calc.tan()"/>
+			<input type="button" value = "asin" onclick= "calc.asin()"/>
+			<input type="button" value = "acos" onclick= "calc.acos()"/>
+		</div>
+		<div>
+			<input type="button" value = " 10ˣ " onclick= "calc.exponente()"/>
+			<input type="button" value = "log" onclick= "calc.log()"/>
+			<input type="button" value = " e " onclick= "calc.e()"/>		
+			<input type="button" value = "atan" onclick= "calc.atan()"/>
+			<input type="button" value = " / " onclick= "calc.division()"/>
+		</div>
+		<div>
+			<input type="button" value = "ln" onclick= "calc.ln()"/>
+			<input type="button" value = " 7 " onclick= "calc.numero(7)"/>
+			<input type="button" value = " 8 " onclick= "calc.numero(8)"/>
+			<input type="button" value = " 9 " onclick= "calc.numero(9)"/>
+			<input type="button" value = " x " onclick= "calc.multiplicacion()"/>
+		</div>
+		<div>
+			<input type="button" value = " ^ " onclick= "calc.potencia()"/>
+			<input type="button" value = " 4 " onclick= "calc.numero(4)"/>
+			<input type="button" value = " 5 " onclick= "calc.numero(5)"/>
+			<input type="button" value = " 6 " onclick= "calc.numero(6)"/>
+			<input type="button" value = " - " onclick= "calc.resta()"/>
+		</div>
+		<div>
+			<input type="button" value = "x2" onclick= "calc.cuadrado()"/>
+			<input type="button" value = " 1 " onclick= "calc.numero(1)"/>
+			<input type="button" value = " 2 " onclick= "calc.numero(2)"/>
+			<input type="button" value = " 3 " onclick= "calc.numero(3)"/>
+			<input type="button" value = " + " onclick= "calc.suma()"/>
+		</div>
+		<div>
+			<input type="button" value = " √ " onclick= "calc.raiz()"/>
+			<input type="button" value = " C " onclick= "calc.borrar()"/>
+			<input type="button" value = " 0 " onclick= "calc.numero(0)"/>
+			<input type="button" value = " . " onclick= "calc.punto()"/>
+			<input id = "enter" type="button" value = "Enter" onclick= "calc.enter()"/>
+		</div>
+	</div>
+</body>
+</html>
