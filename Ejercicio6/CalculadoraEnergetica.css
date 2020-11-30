@@ -1,0 +1,139 @@
+* {
+  	box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    color:black;
+}
+#titulos{
+	display:flex;
+	flex-direction: row;
+	align-items: left;
+}
+
+#titulos>#equipo{
+	margin-right: 2em;
+	margin-left:3em;
+}
+
+#titulos>#uds{
+	margin-right: 2.7em;
+	margin-left:2em;
+}
+
+#equipos{
+	display: flex;
+	flex-direction: column;
+}
+
+#equipos>#equipo{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	border-top: solid black 0.2em;
+	padding: 0.2em;
+}
+
+#equipos>#equipo>select{
+
+	margin: 1em;
+	border-radius: 0.5em;
+	min-height: 40px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#equipos>#equipo>input{
+	margin: 1em;
+	margin-top:0;
+	margin-bottom:0;
+	max-width: 40px;
+	min-height:40px;
+	border-radius: 0.4em;
+	text-align: center;
+}
+
+#equipos>#equipo>input:last-child{
+	
+	max-width: 80px;
+}
+
+#equipos>#equipo>div{
+	display: flex;
+	flex-direction: column;
+	max-height: 40px;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#equipos>#equipo>div>input{
+	margin:0;
+	padding:auto;
+	min-height:0;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	border-radius: 0.4em;
+}
+
+#calificacion{
+	display:flex;
+	flex-direction: row;
+	align-items: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-left:2em;
+}
+
+#calificacion>select{
+	border-radius: 0.4em;
+	margin-top:1em;
+	margin-left: 1em;
+	max-height:20px;
+	min-width:60px;
+}
+
+#A{
+	background-color:green;
+}
+#B{
+	background-color:#228B22;
+}
+#C{
+	background-color:chartreuse;
+}
+#D{
+	background-color:yellow;
+}
+#E{
+	background-color:gold;
+}
+#F{
+	background-color:orange;
+}
+#G{
+	background-color:red;
+}
+
+#divtotal{
+	display:flex;
+	flex-direction: row;
+	align-items: left;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+#divtotal>p{
+	margin-left: 2em;
+}
+
+#divtotal>input{
+	margin-left: 2em;
+	border-radius: 0.4em;
+	min-height: 40px;
+	max-width: 80px;
+	text-align: center;
+}
+
+
+
