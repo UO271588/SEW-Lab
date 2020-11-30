@@ -26,7 +26,6 @@ body{
 	min-width: 290px;
 	min-height: 50px;
 	font-size: 1.3em;
-	font-style: bold;
 }
 
 #calculadora > div{
@@ -41,7 +40,6 @@ body{
 	min-width: 55px;
 	min-height: 32px;
 	border-radius: 1em;
-	font-style: bold;
 	font-size: 1em;
 }
 
