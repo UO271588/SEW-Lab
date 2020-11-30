@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+	<title>CalculadoraBasica</title>
+	<link rel="stylesheet" href="CalculadoraBasica.css"/>
+	<script src="CalculadoraBasica.js"></script>
+</head>
+<body>
+	<h1>Calculadora Básica</h1>	
+	<div id = "calculadora">
+	<input type="text" id="pantalla" readonly/>
+		<div id = "filaBotones4">
+			<input type="button" value = "mrc" onclick= "calc.mrc()"/>
+			<input type="button" value = "m+" onclick= "calc.mMas()"/>
+			<input type="button" value = "m-" onclick= "calc.mMenos()"/>
+			<input type="button" value = " / " onclick= "calc.division()"/>
+		</div>
+		<div id = "filaBotones3">
+			<input type="button" value = " 7 " onclick= "calc.digitos(7)"/>
+			<input type="button" value = " 8 " onclick= "calc.digitos(8)"/>
+			<input type="button" value = " 9 " onclick= "calc.digitos(9)"/>
+			<input type="button" value = " x " onclick= "calc.multiplicacion()"/>
+		</div>
+		<div id = "filaBotones2">
+			<input type="button" value = " 4 " onclick= "calc.digitos(4)"/>
+			<input type="button" value = " 5 " onclick= "calc.digitos(5)"/>
+			<input type="button" value = " 6 " onclick= "calc.digitos(6)"/>
+			<input type="button" value = " - " onclick= "calc.resta()"/>
+		</div>
+		<div id = "filaBotones1">
+			<input type="button" value = " 1 " onclick= "calc.digitos(1)"/>
+			<input type="button" value = " 2 " onclick= "calc.digitos(2)"/>
+			<input type="button" value = " 3 " onclick= "calc.digitos(3)"/>
+			<input type="button" value = " + " onclick= "calc.suma()"/>
+		</div>
+		<div id = "filaBotones0">
+			<input type="button" value = " 0 " onclick= "calc.digitos(0)"/>
+			<input type="button" value = " . " onclick= "calc.punto()"/>
+			<input type="button" value = " c " onclick= "calc.borrar()"/>
+			<input type="button" value = " = " onclick= "calc.igual()"/>
+		</div>
+	</div>
+</body>
+</html>
