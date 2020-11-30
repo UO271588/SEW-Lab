@@ -9,38 +9,37 @@
 <body>
 	<h1>Calculadora Básica</h1>	
 	<div id = "calculadora">
-		<div>
-			<input type="text" id="pantalla" readonly/>
-		</div>
+		<label for="pantalla">Pantalla de la calculadora</label>
+		<input type="text" name = "pantalla" id="pantalla" readonly/>
 		<div id = "filaBotones4">
-			<input type="button" value = "mrc" onclick= "calc.mrc()"/>
-			<input type="button" value = "m+" onclick= "calc.mMas()"/>
-			<input type="button" value = "m-" onclick= "calc.mMenos()"/>
-			<input type="button" value = " / " onclick= "calc.division()"/>
+			<input type="button" name = "Recuperar Memoria" value = "mrc" onclick= "calc.mrc()"/>
+			<input type="button" name = "Sumar Memoria" value = "m+" onclick= "calc.mMas()"/>
+			<input type="button" name = "Restar Memoria" value = "m-" onclick= "calc.mMenos()"/>
+			<input type="button" name = "Dividir" value = " / " onclick= "calc.division()"/>
 		</div>
 		<div id = "filaBotones3">
-			<input type="button" value = " 7 " onclick= "calc.digitos(7)"/>
-			<input type="button" value = " 8 " onclick= "calc.digitos(8)"/>
-			<input type="button" value = " 9 " onclick= "calc.digitos(9)"/>
-			<input type="button" value = " x " onclick= "calc.multiplicacion()"/>
+			<input type="button" name = "7" value = " 7 " onclick= "calc.digitos(7)"/>
+			<input type="button" name = "8" value = " 8 " onclick= "calc.digitos(8)"/>
+			<input type="button" name = "9" value = " 9 " onclick= "calc.digitos(9)"/>
+			<input type="button" name = "Multiplicar" value = " x " onclick= "calc.multiplicacion()"/>
 		</div>
 		<div id = "filaBotones2">
-			<input type="button" value = " 4 " onclick= "calc.digitos(4)"/>
-			<input type="button" value = " 5 " onclick= "calc.digitos(5)"/>
-			<input type="button" value = " 6 " onclick= "calc.digitos(6)"/>
-			<input type="button" value = " - " onclick= "calc.resta()"/>
+			<input type="button" name = "4" value = " 4 " onclick= "calc.digitos(4)"/>
+			<input type="button" name = "5" value = " 5 " onclick= "calc.digitos(5)"/>
+			<input type="button" name = "6" value = " 6 " onclick= "calc.digitos(6)"/>
+			<input type="button" name = "Restar" value = " - " onclick= "calc.resta()"/>
 		</div>
 		<div id = "filaBotones1">
-			<input type="button" value = " 1 " onclick= "calc.digitos(1)"/>
-			<input type="button" value = " 2 " onclick= "calc.digitos(2)"/>
-			<input type="button" value = " 3 " onclick= "calc.digitos(3)"/>
-			<input type="button" value = " + " onclick= "calc.suma()"/>
+			<input type="button" name = "1" value = " 1 " onclick= "calc.digitos(1)"/>
+			<input type="button" name = "2" value = " 2 " onclick= "calc.digitos(2)"/>
+			<input type="button" name = "3" value = " 3 " onclick= "calc.digitos(3)"/>
+			<input type="button" name = "Sumar" value = " + " onclick= "calc.suma()"/>
 		</div>
 		<div id = "filaBotones0">
-			<input type="button" value = " 0 " onclick= "calc.digitos(0)"/>
-			<input type="button" value = " . " onclick= "calc.punto()"/>
-			<input type="button" value = " c " onclick= "calc.borrar()"/>
-			<input type="button" value = " = " onclick= "calc.igual()"/>
+			<input type="button" name = "0" value = " 0 " onclick= "calc.digitos(0)"/>
+			<input type="button" name = "punto" value = " . " onclick= "calc.punto()"/>
+			<input type="button" name = "reiniciar" value = " c " onclick= "calc.borrar()"/>
+			<input type="button" name = "igual" value = " = " onclick= "calc.igual()"/>
 		</div>
 	</div>
 </body>
