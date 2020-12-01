@@ -13,7 +13,7 @@ body{
 	flex-direction: column;	
 	align-items: center;
 	justify-content: center;
-	background-color: darkgreen;
+	background-color: green;
 	max-width: 340px;
 	border-radius: 1em;
 }
