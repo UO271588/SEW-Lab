@@ -11,12 +11,13 @@
 	<div id = "calculadora">
 		<div id = "pantalla">
 			<div id="titulos">
-				<p id = "equipo">Equipo</p>
+				<p id = "equipotxt">Equipo</p>
 				<p id = "uds">Uds</p>
 				<p id = "gasto">KWh</p>
 			</div>
 			<div id="equipos">
 				<div id = "equipo">
+					<label for="optionlist0">Elementos</label>
 					<select id="optionlist0">
 						<option id = "nevera" selected>Nevera</option>
 						<option id = "microondas">Microondas</option>
@@ -25,16 +26,19 @@
 						<option id = "television">Televisión</option>
 						<option id = "calefaccion">Calefacción</option>
 					</select>
+					<label for="unidades0">Unidades</label>
 					<input type="text" id="unidades0" value="0" readonly>
 					<div id = "botones">
 						<input type="button" id="mas" onclick = "calc.sumar(0)" value="+" />
 						<input type="button" id="menos" onclick = "calc.restar(0)" value="-" />
 					</div>
+					<label for="gasto0">Gasto</label>
 					<input type="text" id="gasto0" value="0">
 				</div>
 			</div>
 			<div id = "calificacion">
 				<p>Calificación Energética: </p>
+				<label for="pantalla">Lista calificacion</label>
 				<select id="calificacionlist">
 						<option id = "A" selected>A</option>
 						<option id = "B">B</option>
@@ -56,5 +60,21 @@
 			<input id = "calcular" type="button" value = "CALCULAR" onclick= "calc.actualizar()"/>
 		</div>
 	</div>
+	<footer>
+   <p>
+	<a href="http://validator.w3.org/check/referer" hreflang="en-us">
+		<img src="http://di002.edv.uniovi.es/~cueva/JavaScript/valid-html5-button.png" 
+			alt="¡HTML5 válido!" 
+			height="31" width="88" />
+	</a>
+   </p>
+   <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="¡CSS Válido!" />
+    </a>
+</p>
+</footer>
 </body>
 </html>
