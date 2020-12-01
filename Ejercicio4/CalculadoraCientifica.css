@@ -5,6 +5,9 @@
 body{
     background-color:black;
     color:white;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 #calculadora{
@@ -42,4 +45,3 @@ body{
 #calculadora label{
 	display:none;
 }
-
