@@ -28,3 +28,7 @@ input{
 	max-width: 100px;
 	margin:1em;
 }
+
+label{
+	display:none;
+}
