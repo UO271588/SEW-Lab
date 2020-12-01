@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+	<title>Ejercicio14</title>
+	<meta name="viewport" content="initial-scale=1.0"/>
+	<link rel="stylesheet" href="Ejercicio14.css"/>
+	<script src = "Ejercicio14.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<h1>Mostrar Dibujos en 2D con JSON a pantalla completa</h1>
+	<div id = "panel">
+		<label for="pintar2D">Archivo:</label>
+		<input type = "file" name = "pintar2D" id = "pintar2D" onchange= "pintar.cargarArchivo('pintar2D')"/>
+		<canvas id = "canvas"></canvas>
+		<input type = "button" name = "pantallaCompleta" id = "pantallaCompleta" value = "Mostrar en pantalla completa" onclick = "pintar.pantallacompleta('canvas')"/>
+	</div>
+</body>
+</html>
