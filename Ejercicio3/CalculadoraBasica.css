@@ -46,3 +46,7 @@ body{
 #calculadora div input:last-child{
 	background-color: red;
 }
+
+#calculadora label{
+	display:none;
+}
