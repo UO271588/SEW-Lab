@@ -10,30 +10,30 @@
 <body>
 	<h1>Ejercicio 7 - UO271588</h1>
 	<h2>Tarea 1 - Ocultar Botones</h2>
-	<p class = "parrafoocultar1">Este es un parrafo que se va a ocultar</p>
-	<p class = "parrafoocultar2">Este es otro parrafo que se va a ocultar</p>
-	<input type = "button" class = "ocultar" value = "Ocultar Parrafos" onclick = "gestor.ocultarParrafos()"></input>
+	<p id = "parrafoocultar1">Este es un parrafo que se va a ocultar</p>
+	<p id = "parrafoocultar2">Este es otro parrafo que se va a ocultar</p>
+	<input type = "button" name = "ocultar" id = "ocultar" value = "Ocultar Parrafos" onclick = "gestor.ocultarParrafos()"></input>
 	
 	<h2>Tarea 2 - Modificar Elementos HTML</h2>
-	<p class = "parrafomodificar1">Este es un parrafo que se va a modificar</p>
-	<p class = "parrafomodificar2">Este es un parrafo para añadir texto al final</p>
-	<p class = "parrafomodificar3">Este es un parrafo para añadir texto al principio</p>
-	<input type = "button" class = "modificar" value = "Modificar Parrafo" onclick = "gestor.modificarParrafo()"></button>
-	<input type = "button" class = "textoFinal" value = "Añadir Texto Final" onclick = "gestor.añadirFinal()"></button>
-	<input type = "button" class = "textoInicio" value = "Añadir Texto Principio" onclick = "gestor.añadirInicio()"></button>
+	<p id = "parrafomodificar1">Este es un parrafo que se va a modificar</p>
+	<p id = "parrafomodificar2">Este es un parrafo para añadir texto al final</p>
+	<p id = "parrafomodificar3">Este es un parrafo para añadir texto al principio</p>
+	<input type = "button" name = "modificar" id = "modificar" value = "Modificar Parrafo" onclick = "gestor.modificarParrafo()"></input>
+	<input type = "button" name = "añadirfinal" id = "textoFinal" value = "Añadir Texto Final" onclick = "gestor.añadirFinal()"></input>
+	<input type = "button" name = "añadirprincipio" id = "textoInicio" value = "Añadir Texto Principio" onclick = "gestor.añadirInicio()"></input>
 	
 	<h2>Tarea 3 - Añadir Elementos HTML</h2>
-	<p class = "parrafoañadir1">Este es un parrafo al que se le va a añadir uno despues</p>
-	<p class = "parrafoañadir2">Este es un parrafo al que se le va a añadir uno antes</p>
-	<input type = "button" class = "parrafodespues" value = "Añadir Parrafo Despues" onclick = "gestor.añadirDespues()"></button>
-	<input type = "button" class = "parrafoantes" value = "Añadir Parrafo Antes" onclick = "gestor.añadirAntes()"></button>
+	<p id = "parrafoañadir1">Este es un parrafo al que se le va a añadir uno despues</p>
+	<p id = "parrafoañadir2">Este es un parrafo al que se le va a añadir uno antes</p>
+	<input type = "button" name = "añadirpdespues" id = "parrafodespues" value = "Añadir Parrafo Despues" onclick = "gestor.añadirDespues()"></input>
+	<input type = "button" name = "añadirpantes" id = "parrafoantes" value = "Añadir Parrafo Antes" onclick = "gestor.añadirAntes()"></input>
 	
 	<h2>Tarea 4 - Eliminar Elementos HTML</h2>
-	<p class = "parrafoeliminar">Este es un parrafo que se va a eliminar</p>
-	<input type = "button" class = "eliminarparrafo" value = "Eliminar Parrafo" onclick = "gestor.eliminar()"></button>
+	<p id = "parrafoeliminar">Este es un parrafo que se va a eliminar</p>
+	<input type = "button" name = "eliminar parrafo" id = "eliminarparrafo" value = "Eliminar Parrafo" onclick = "gestor.eliminar()"></input>
 	
 	<h2>Tarea 5 - Recorrer Elementos HTML</h2>
-	<input type = "button" class = "recorrer" value = "Recorrer Elementos" onclick = "gestor.recorrerHtml()"></button>
+	<input type = "button" name = "recorrer" id = "recorrer" value = "Recorrer Elementos" onclick = "gestor.recorrerHtml()"></input>
 	
 	<h2>Tarea 6 - Sumar filas y columnas de una tabla</h2>
 	<table>
@@ -87,7 +87,7 @@
 		</tr>
 		
 	</table>
-	<input type = "button" class = "sumarFilas" value = "Sumar Filas" onclick = "gestor.sumarFilas()"></button>
-	<input type = "button" class = "sumarColumnas" value = "Sumar Columnas" onclick = "gestor.sumarColumnas()"></button>
+	<input type = "button" name = "sumarFilas" id = "sumarFilas" value = "Sumar Filas" onclick = "gestor.sumarFilas()"></input>
+	<input type = "button" name = "sumarColumnas" id = "sumarColumnas" value = "Sumar Columnas" onclick = "gestor.sumarColumnas()"></input>
 </body>
 </html>
