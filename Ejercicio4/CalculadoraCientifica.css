@@ -13,7 +13,8 @@ body{
 	flex-direction: column;	
 	justify-content: center;
 	background-color: gray;
-	max-width: 500px;
+	max-width: 340px;
+	align-items:center;
 }
 
 #calculadora > #pantalla{
@@ -21,7 +22,7 @@ body{
 	align-items: center;
 	background-color: mediumseagreen;
 	margin-top: 1.2em;
-	min-width: 460px;
+	min-width: 300px;
 	min-height: 50px;
 	font-size: 1.3em;
 }
