@@ -5,6 +5,10 @@
 body{
     background-color:black;
     color:white;
+    display:flex;
+    flex-direction: column;
+	align-items:center;
+
 }
 
 #calculadora{
@@ -26,7 +30,7 @@ body{
 	min-width: 420px;
 	min-height: 50px;
 	font-size: 2em;
-	font-family:  "AndaleMono", AndaleMono, monospace;
+	font-family:  'AndaleMono', AndaleMono, monospace;
 	text-align: right;
 	margin:1em auto;
 	padding-left:0.2em;
@@ -38,6 +42,7 @@ body{
 }
 
 #calculadora > #pantalla > #pila{
+	display:flex;
 	flex-direction: column-reverse;
 }
 
