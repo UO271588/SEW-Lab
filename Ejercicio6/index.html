@@ -29,8 +29,8 @@
 					<label for="unidades0">Unidades</label>
 					<input type="text" id="unidades0" value="0" readonly>
 					<div id = "botones">
-						<input type="button" id="mas" onclick = "calc.sumar(0)" value="+" />
-						<input type="button" id="menos" onclick = "calc.restar(0)" value="-" />
+						<input type="button" name = "mas" id="mas" onclick = "calc.sumar(0)" value="+" />
+						<input type="button" name = "menos" id="menos" onclick = "calc.restar(0)" value="-" />
 					</div>
 					<label for="gasto0">Gasto</label>
 					<input type="text" id="gasto0" value="0">
@@ -57,9 +57,9 @@
 				<label for="total">precio</label>
 				<input type = "text" id="precio"  value = "0"/>				
 			</div>
-			<input id = "añadir" type="button" value = "AÑADIR" onclick= "calc.añadir()"/>
-			<input id = "delete" type="button" value = "BORRAR" onclick= "calc.borrar()"/>
-			<input id = "calcular" type="button" value = "CALCULAR" onclick= "calc.actualizar()"/>
+			<input id = "añadir" type="button" name = "añadir" value = "AÑADIR" onclick= "calc.añadir()"/>
+			<input id = "delete" type="button" name = "borrar" value = "BORRAR" onclick= "calc.borrar()"/>
+			<input id = "calcular" type="button" name = "calcular" value = "CALCULAR" onclick= "calc.actualizar()"/>
 		</div>
 	</div>
 	<footer>
