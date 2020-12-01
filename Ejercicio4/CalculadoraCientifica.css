@@ -19,7 +19,6 @@ body{
 
 #calculadora > #pantalla{
 	margin: 1em;
-	align-items: center;
 	background-color: mediumseagreen;
 	margin-top: 1.2em;
 	min-width: 300px;
