@@ -1,0 +1,14 @@
+*{
+	font-family: Arial, Verdana, sans-serif;
+}
+
+#tiempoact{
+	display: flex;
+	flex-direction: row;
+	align-items: start;
+}
+
+#tiempoact>p{
+	align-self: center;
+	font-size: 1.6em;
+}
