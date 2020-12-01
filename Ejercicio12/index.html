@@ -9,7 +9,8 @@
 </head>
 <body>
 	<h1>Ejercicio12</h1>
-	<input type = "file" id = "archivos" onchange = "carga.visualizarArchivos('archivos')">
+	<label for = "archivos">Archivo: </label>
+	<input type = "file" name = "archivos" id = "archivos" onchange = "carga.visualizarArchivos('archivos')">
 	<p id="nombreArchivo"></p>
 	<p id="tamañoArchivo"></p>
 	<p id="tipoArchivo"></p>
