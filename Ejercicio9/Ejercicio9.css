@@ -5,12 +5,11 @@
 #tiempoact{
 	display: flex;
 	flex-direction: row;
-	align-items: left;
+	align-items: start;
 }
 
 #tiempoact>p{
 	align-self: center;
 	
 	font-size: 1.6em;
-	font-style: bold;
 }
