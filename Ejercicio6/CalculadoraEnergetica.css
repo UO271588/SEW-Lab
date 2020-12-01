@@ -1,15 +1,22 @@
 * {
   	box-sizing: border-box;
+
 }
 
 body{
     background-color:white;
     color:black;
+    font-size: 1.1em;
 }
+
+label{
+	display:none;
+}
+
 #titulos{
 	display:flex;
 	flex-direction: row;
-	align-items: left;
+	align-items: start;
 }
 
 #titulos>#equipo{
@@ -55,7 +62,6 @@ body{
 }
 
 #equipos>#equipo>input:last-child{
-	
 	max-width: 80px;
 }
 
@@ -69,7 +75,6 @@ body{
 
 #equipos>#equipo>div>input{
 	margin:0;
-	padding:auto;
 	min-height:0;
 	padding-left: 0.4em;
 	padding-right: 0.4em;
@@ -79,7 +84,7 @@ body{
 #calificacion{
 	display:flex;
 	flex-direction: row;
-	align-items: left;
+	align-items: start;
 	margin-top: 2em;
 	margin-bottom: 2em;
 	margin-left:2em;
@@ -118,7 +123,7 @@ body{
 #divtotal{
 	display:flex;
 	flex-direction: row;
-	align-items: left;
+	align-items: start;
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
