@@ -43,3 +43,7 @@ body{
 	font-size: 1em;
 }
 
+#calculadora label{
+	display:none;
+}
+

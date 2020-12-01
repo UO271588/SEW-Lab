@@ -9,62 +9,63 @@
 <body>
 	<h1>Calculadora Científica</h1>	
 	<div id = "calculadora">
-	<input type="text" id="pantalla" readonly/>
+	<label for="pantalla">Pantalla de la calculadora</label>
+	<input type="text" name = "pantalla" id="pantalla" readonly/>
 		<div>
-			<input type="button" value = "asin" onclick= "calc.aSin()"/>
-			<input type="button" value = "acos" onclick= "calc.aCos()"/>
-			<input type="button" value = "atan" onclick= "calc.aTan()"/>
-			<input type="button" value = "mrc" onclick= "calc.mrc()"/>
-			<input type="button" value = "m+" onclick= "calc.mMas()"/>
-			<input type="button" value = "m-" onclick= "calc.mMenos()"/>
+			<input type="button" name = "arcoseno" value = "asin" onclick= "calc.aSin()"/>
+			<input type="button" name = "arcocoseno" value = "acos" onclick= "calc.aCos()"/>
+			<input type="button" name = "arcotangente" value = "atan" onclick= "calc.aTan()"/>
+			<input type="button" name = "recuperar memoria" value = "mrc" onclick= "calc.mrc()"/>
+			<input type="button" name = "sumar a memoria" value = "m+" onclick= "calc.mMas()"/>
+			<input type="button" name = "restar a memoria" value = "m-" onclick= "calc.mMenos()"/>
 		</div>
 		<div>
-			<input type="button" value = "sin" onclick= "calc.sin()"/>
-			<input type="button" value = "cos" onclick= "calc.cos()"/>
-			<input type="button" value = "tan" onclick= "calc.tan()"/>
-			<input type="button" value = "sec" onclick= "calc.sec()"/>
-			<input type="button" value = "csc" onclick= "calc.csc()"/>
-			<input type="button" value = "cot" onclick= "calc.cot()"/>
+			<input type="button" name = "seno" value = "sin" onclick= "calc.sin()"/>
+			<input type="button" name = "coseno" value = "cos" onclick= "calc.cos()"/>
+			<input type="button" name = "tangente" value = "tan" onclick= "calc.tan()"/>
+			<input type="button" name = "secante" value = "sec" onclick= "calc.sec()"/>
+			<input type="button" name = "cosecante" value = "csc" onclick= "calc.csc()"/>
+			<input type="button" name = "cotangente" value = "cot" onclick= "calc.cot()"/>
 		</div>
 		<div>
-			<input type="button" value = "log" onclick= "calc.log()"/>
-			<input type="button" value = " ^ " onclick= "calc.potencia()"/>
-			<input type="button" value = " √ " onclick= "calc.raiz()"/>
-			<input type="button" value = " e " onclick= "calc.e()"/>
-			<input type="button" value = " 10ˣ " onclick= "calc.exponente()"/>
-			<input type="button" value = " / " onclick= "calc.division()"/>
+			<input type="button" name = "logaritmo en base 10" value = "log" onclick= "calc.log()"/>
+			<input type="button" name = "potencia" value = " ^ " onclick= "calc.potencia()"/>
+			<input type="button" name = "raiz cuadrada" value = " √ " onclick= "calc.raiz()"/>
+			<input type="button" name = "e" value = " e " onclick= "calc.e()"/>
+			<input type="button" name = "exponente de 10" value = " 10ˣ " onclick= "calc.exponente()"/>
+			<input type="button" name = "dividir" value = " / " onclick= "calc.division()"/>
 		</div>
 		<div>
-			<input type="button" value = "ln" onclick= "calc.ln()"/>
-			<input type="button" value = " π " onclick= "calc.pi()"/>
-			<input type="button" value = " 7 " onclick= "calc.digitos(7)"/>
-			<input type="button" value = " 8 " onclick= "calc.digitos(8)"/>
-			<input type="button" value = " 9 " onclick= "calc.digitos(9)"/>
-			<input type="button" value = " x " onclick= "calc.multiplicacion()"/>
+			<input type="button" name = "logaritmo neperiano" value = "ln" onclick= "calc.ln()"/>
+			<input type="button" name = "PI" value = " π " onclick= "calc.pi()"/>
+			<input type="button" name = "7" value = " 7 " onclick= "calc.digitos(7)"/>
+			<input type="button" name = "8" value = " 8 " onclick= "calc.digitos(8)"/>
+			<input type="button" name = "9" value = " 9 " onclick= "calc.digitos(9)"/>
+			<input type="button" name = "multiplicar" value = " x " onclick= "calc.multiplicacion()"/>
 		</div>
 		<div>
-			<input type="button" value = "|x|" onclick= "calc.abs()"/>
-			<input type="button" value = "n!" onclick= "calc.fact()"/>
-			<input type="button" value = " 4 " onclick= "calc.digitos(4)"/>
-			<input type="button" value = " 5 " onclick= "calc.digitos(5)"/>
-			<input type="button" value = " 6 " onclick= "calc.digitos(6)"/>
-			<input type="button" value = " - " onclick= "calc.resta()"/>
+			<input type="button" name = "valor absoluto" value = "|x|" onclick= "calc.abs()"/>
+			<input type="button" name = "factorial" value = "n!" onclick= "calc.fact()"/>
+			<input type="button" name = "4" value = " 4 " onclick= "calc.digitos(4)"/>
+			<input type="button" name = "5" value = " 5 " onclick= "calc.digitos(5)"/>
+			<input type="button" name = "6" value = " 6 " onclick= "calc.digitos(6)"/>
+			<input type="button" name = "restar" value = " - " onclick= "calc.resta()"/>
 		</div>
 		<div>
-			<input type="button" value = "x2" onclick= "calc.cuadrado()"/>
-			<input type="button" value = "x3" onclick= "calc.cubo()"/>
-			<input type="button" value = " 1 " onclick= "calc.digitos(1)"/>
-			<input type="button" value = " 2 " onclick= "calc.digitos(2)"/>
-			<input type="button" value = " 3 " onclick= "calc.digitos(3)"/>
-			<input type="button" value = " + " onclick= "calc.suma()"/>
+			<input type="button" name = "elevacion al cuadrado" value = "x2" onclick= "calc.cuadrado()"/>
+			<input type="button" name = "elevacion al cubo" value = "x3" onclick= "calc.cubo()"/>
+			<input type="button" name = "1" value = " 1 " onclick= "calc.digitos(1)"/>
+			<input type="button" name = "2" value = " 2 " onclick= "calc.digitos(2)"/>
+			<input type="button" name = "3" value = " 3 " onclick= "calc.digitos(3)"/>
+			<input type="button" name = "sumar" value = " + " onclick= "calc.suma()"/>
 		</div>
 		<div>
-			<input type="button" value = "DEL" onclick= "calc.delete()"/>
-			<input type="button" value = " CE " onclick= "calc.borrartodo()"/>
-			<input type="button" value = " C " onclick= "calc.borrar()"/>
-			<input type="button" value = " 0 " onclick= "calc.digitos(0)"/>
-			<input type="button" value = " . " onclick= "calc.punto()"/>
-			<input type="button" value = " = " onclick= "calc.igual()"/>
+			<input type="button" name = "borrar anterior" value = "DEL" onclick= "calc.delete()"/>
+			<input type="button" name = "borrar memoria y pantalla" value = " CE " onclick= "calc.borrartodo()"/>
+			<input type="button" name = "borrar pantalla" value = " C " onclick= "calc.borrar()"/>
+			<input type="button" name = "0" value = " 0 " onclick= "calc.digitos(0)"/>
+			<input type="button" name = "punto decimal" value = " . " onclick= "calc.punto()"/>
+			<input type="button" name = "igual" value = " = " onclick= "calc.igual()"/>
 		</div>
 	</div>
 </body>
