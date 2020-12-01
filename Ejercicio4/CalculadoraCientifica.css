@@ -34,8 +34,8 @@ body{
 #calculadora > div > input{
 	align-items: center;
 	margin:0.2em;
-	min-width: 70px;
-	min-height: 50px;
+	min-width: 50px;
+	min-height: 30px;
 	font-size: 1em;
 }
 
