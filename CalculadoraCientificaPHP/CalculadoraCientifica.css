@@ -29,12 +29,12 @@ body{
 	font-size: 1.3em;
 }
 
-#calculadora > div{
+#calculadora > form > div{
 	margin: 0.3em;
 	min-width: 360px;
 }
 
-#calculadora > div > input{
+#calculadora > form > div > input{
 	align-items: center;
 	margin:0.2em;
 	min-width: 50px;
